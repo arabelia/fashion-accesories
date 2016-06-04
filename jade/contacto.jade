@@ -1,0 +1,36 @@
+doctype html
+html
+	include head.jade
+	body
+		.container
+			include encabezado.jade
+			#contactanos
+				.capa
+					.contenedor
+						.row.espaciado1
+							.col-sm-6.text-center
+								h1 CONTACTA US
+							.col-sm-6.info
+								p Contact Info
+								p Phone: (2343)235325
+								p Mail: asjdfqek@adji.com
+								p Adrees: No Cdopfe Tyidpuf - New Yoirs, NY usa 
+			#contacto-info
+				.contenedor
+					.row.espaciado1
+						.col-sm-6
+							iframe.pull-left(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.275577233515!2d-71.52250318545703!3d-16.410824742788925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b03bd681007%3A0x5ae3562018410ea6!2sParque+Lambramani!5e0!3m2!1ses-419!2ses!4v1464972207915', width='90%', height='400', frameborder='0', style='border:0', allowfullscreen='')
+						.col-sm-6.datos
+							.row
+								.col-sm-6.datos
+									input(placeholder="Nombre")
+									input(placeholder="Apellido")
+								.col-sm-6
+									input(placeholder="Email")
+									input(placeholder="Sitio webs")
+							.row.mensaje
+								input(placeholder="Asunto")
+								input(placeholder="Mensaje")
+					.row.pull-rigth
+						button SEND
+			include pie.jade

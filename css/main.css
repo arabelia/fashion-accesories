@@ -1,0 +1,338 @@
+body {
+  color: #818181;
+}
+
+h1, h5, h6, a {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #818181;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+i {
+  padding: 1px;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+}
+
+.espaciado1 {
+  padding: 1em 0;
+}
+
+.espaciado2 {
+  padding: 2em 0;
+}
+
+.tam-0 {
+  font-size: 1.5em;
+}
+
+.tam-1 {
+  font-size: 2.5em;
+}
+
+.tam-2 {
+  font-size: 5em;
+}
+
+.t-resaltado {
+  color: #DD4E4E;
+}
+
+.enlinea {
+  display: inline-block;
+}
+
+.borde {
+  border: 1px solid #E7E7E7;
+}
+
+.menu-segundo a {
+  color: #A1A1A1;
+}
+
+.menu-segundo a:hover {
+  color: #111;
+}
+
+#menu {
+  background-color: #E7E7E7;
+}
+
+#menu a {
+  padding: .5em .2em;
+}
+
+#menu a:hover {
+  color: #494380;
+}
+
+#titulo {
+  background-color: #fff;
+}
+
+#titulo p {
+  margin: -0.3em 0;
+}
+
+#titulo input {
+  border: none;
+}
+
+#titulo .entrada {
+  width: 200px;
+}
+
+#submenu {
+  background-color: #E7E7E7;
+}
+
+#submenu ul {
+  margin: 1em  0;
+}
+
+#submenu ul li {
+  height: auto;
+}
+
+#submenu a {
+  padding: 1em;
+  color: #111;
+}
+
+#submenu a:hover {
+  background-color: #DD4E4E;
+  color: #fff;
+}
+
+#submenu .shopping {
+  text-align: center;
+  margin-right: -0.5em;
+  width: 150px;
+  height: 50px;
+  background-color: #1C1818;
+  color: #fff;
+}
+
+#carrusel .ofertas {
+  width: 250px;
+  background-color: #F6F6F6;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+#carrusel .portada {
+  background-image: url(../images/slider1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#carrusel-2 {
+  background-color: #fff;
+}
+
+#carrusel-2 .portada2 {
+  padding: 1em 0;
+}
+
+#carrusel-2 .portada2 img {
+  max-height: 200px;
+}
+
+#carrusel-2 .l-productos {
+  width: 220px;
+  margin: 0.5em;
+  margin: auto;
+  padding: .5em;
+}
+
+#clientes {
+  background-image: url(../images/client-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+#clientes li {
+  padding: 1em;
+}
+
+#clientes img {
+  max-width: 125px;
+}
+
+#carrusel-3 {
+  background-color: #fff;
+}
+
+#carrusel-3 li {
+  margin: 0.5em;
+}
+
+#carrusel-3 .compra {
+  width: 260px;
+}
+
+#carrusel-4 {
+  background-color: #fff;
+}
+
+#carrusel-4 li {
+  margin: 0.5em;
+}
+
+#carrusel-4 .articulo {
+  width: 200px;
+}
+
+#carrusel-4 .articulo p, #carrusel-4 .articulo h5, #carrusel-4 .articulo a {
+  text-align: left;
+}
+
+#carrusel-5 {
+  background-color: #fff;
+}
+
+#carrusel-5 li {
+  margin: 0.5em;
+}
+
+#carrusel-5 .ordenes {
+  width: 260px;
+}
+
+#carrusel-5 .ordenes i {
+  padding-right: 2px;
+  border-right: 1px solid #E7E7E7;
+}
+
+#footer {
+  background-color: #E7E7E7;
+}
+
+#footer p {
+  font-size: 12px;
+}
+
+#footer a {
+  font-size: 12px;
+}
+
+#footer h5 {
+  font-weight: bold;
+}
+
+#footer .sociales {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  margin: 0.2em;
+  background-color: #fff;
+}
+
+#footer .circle {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#pie-pag {
+  font-size: 10px;
+  background-color: #564D55;
+}
+
+#pie-pag p {
+  color: #fff;
+}
+
+#contactanos {
+  vertical-align: middle;
+  color: #fff;
+  background-image: url(../images/blog3.jpg);
+  background-size: cover;
+}
+
+#contactanos h1 {
+  background-color: #DD4E4E;
+  font-size: 30px;
+  padding: 0.4em;
+  margin: 2em auto;
+}
+
+#contactanos .info {
+  margin-top: 0.5em;
+}
+
+#contactanos .info p {
+  padding: 0.5em 1em;
+}
+
+#contactanos .capa {
+  background-color: rgba(226, 202, 213, 0.2);
+}
+
+#contacto-info {
+  padding: 0 10em;
+}
+
+#contacto-info .row {
+  padding: 1em 0;
+}
+
+#contacto-info input {
+  background: #E7E7E7;
+}
+
+#contacto-info button {
+  background-color: #474450;
+  padding: 1em;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #titulo {
+    text-align: center;
+  }
+  #submenu {
+    text-align: center;
+  }
+  #submenu ul {
+    margin: 1em 0;
+  }
+  #carrusel .ofertas {
+    width: 220px;
+    padding: 0.5em;
+    margin: 0.4em;
+  }
+  #carrusel-2 .portada2 img {
+    margin: auto;
+  }
+  #clientes li {
+    padding: 0.3em;
+  }
+  #clientes img {
+    max-width: 100px;
+  }
+  #carrusel-3 .compra {
+    width: 220px;
+  }
+  #carrusel-5 .ordenes {
+    width: 220px;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer img {
+    margin: auto;
+  }
+}
